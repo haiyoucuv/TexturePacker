@@ -1,6 +1,6 @@
 {
 	"name": "texture-packer-hycv",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "TexturePacker",
 	"main": "dist/index.js",
 	"bin": {
@@ -19,14 +19,17 @@
 		"build": "tsc"
 	},
 	"dependencies": {
+		"color": "^4.2.3",
+		"detect-libc": "^2.0.2",
 		"fs": "0.0.2",
 		"maxrects-packer": "^2.6.0",
 		"path": "^0.12.7",
+		"semver": "^7.5.4",
+		"tunnel-agent": "^0.6.0",
 		"typescript": "^5.2.2",
 		"yargs": "^12.0.5"
 	},
-	"devDependencies": {
-	},
+	"devDependencies": {},
 	"keywords": [
 		"合图工具",
 		"packTextures",
