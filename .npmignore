@@ -1,5 +1,5 @@
 # project ignores
-node_modules
+./node_modules
 scripts
 src
 test
