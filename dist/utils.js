@@ -12,7 +12,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.toBuffer = exports.getTrim = exports.getPixel = exports.clamp = void 0;
-var Sharp = require('../sharp/index');
+var Sharp = require("../sharp/index");
 var clamp = function (value, min, max) {
     return value < min ? min : value > max ? max : value;
 };

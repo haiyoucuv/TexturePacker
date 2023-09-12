@@ -5,7 +5,7 @@
 		"target": "es5",
 		"noImplicitAny": false,
 		"sourceMap": false,
-		"allowJs": true,
+		"allowJs": false,
 		"noUnusedLocals": false,
 		"moduleResolution": "Node",
 		"removeComments": true,
