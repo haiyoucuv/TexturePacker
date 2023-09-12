@@ -100,8 +100,9 @@ export function packTextures(
                 .then(() => {
                     const out = outPath + (i ? i : "");
 
-                    //保存数据
-                    fs.writeFileSync(out + ".json", JSON.stringify(obj, () => "", "\t"));
+                    // 保存数据
+                    // @ts-ignore
+                    fs.writeFileSync(out + ".json", JSON.stringify(obj, "", "\t"));
 
                     Sharp(buffer, {raw: {width, height, channels: 4}})
                     // @ts-ignore

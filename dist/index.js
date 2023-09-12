@@ -119,7 +119,7 @@ function packTextures(inDir, outPath, maxWidth, maxHeight, powerOf2, shapePaddin
             Promise.all(ps)
                 .then(function () {
                 var out = outPath + (i ? i : "");
-                fs.writeFileSync(out + ".json", JSON.stringify(obj, function () { return ""; }, "\t"));
+                fs.writeFileSync(out + ".json", JSON.stringify(obj, "", "\t"));
                 Sharp(buffer, { raw: { width: width, height: height, channels: 4 } })
                     .composite(m)
                     .png({ compressionLevel: 6, })
