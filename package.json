@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "TexturePacker",
 	"main": "dist/index.js",
-	"private": false,
 	"bin": {
 		"packTextures": "packTextures.js"
 	},
