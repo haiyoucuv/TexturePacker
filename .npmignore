@@ -1,0 +1,5 @@
+# project ignores
+node_modules
+scripts
+src
+test

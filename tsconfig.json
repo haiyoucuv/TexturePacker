@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"allowJs": true,
+		"noUnusedLocals": false,
+		"moduleResolution": "Node",
+		"removeComments": true,
+		"outDir": "dist",
+		"lib": [
+			"es5",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"src/index.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"sharp"
+	]
+}
